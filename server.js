@@ -34,15 +34,14 @@ var articles = {
         title: 'Article Three | Shivaji Shinde',
         heading: 'Article Three' ,
         date: 'October 15, 2016',
-        content: ` `
-    }
-};
+        content: `
             <p>
                 This is the content of my third article.
             </p>`           
-        
+ 
     }
 };
+        
 
 function createTemplate (data) {
     var title = data.title;
